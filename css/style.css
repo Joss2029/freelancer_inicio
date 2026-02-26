@@ -26,17 +26,18 @@ body {
 
 .contenedor {
     width: 120rem;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
+    margin:auto
 }
 
 .nav-bg {
     background-color: var(--secundario);  
 }
 
-.navegacion_principal a {
-    background-color: var(--primario);
+.navegacion_principal  {
+    padding: 1rem;
+   
 }
-  
+  .navegacion_principal  {
+    color: var(--blanco);
+    text-decoration: none;
+}
